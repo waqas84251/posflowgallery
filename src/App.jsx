@@ -142,7 +142,7 @@ const WelcomeModal = ({ onClose }) => (
           Start Exploring <ArrowRight size={20} />
         </button>
         <a
-          href="https://github.com/WaqasKhan786"
+          href="https://github.com/waqas84251/possystem"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-outline btn-lg"
@@ -152,7 +152,7 @@ const WelcomeModal = ({ onClose }) => (
       </div>
 
       <div className="hero-footer-note">
-        Want to see the actual software? Download the full source code from <strong>GitHub</strong> and run it locally!
+        Want to see the actual software? Download the full source code from <a href="https://github.com/waqas84251/possystem" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong></a> and run it locally!
       </div>
     </motion.div>
   </motion.div>
