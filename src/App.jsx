@@ -385,7 +385,7 @@ function App() {
                       </div>
                       <div className="mock-body">
                         <img
-                          src={src}
+                          src={`${import.meta.env.BASE_URL}${src.startsWith('/') ? src.slice(1) : src}`}
                           alt={activeModule}
                           onError={(e) => {
                             if (activeModule === 'dashboard' && idx === 0) {
